@@ -1,0 +1,16 @@
+1.Array - container object that holds multiple values of the same type
+2.How to create an use an array?
+		int[] nums =new int[4];
+		nums[0] =10;
+		System.out.println(nums[2]); //0 default value comes
+		System.out.println(nums[4]); //run-time error because it is out of range: ArrayIndexOutOfBoundException:4
+		
+3.Size of the array: nums.length--> tells how many elements
+		
+		how to get all elements:
+		for (int i=0; i<nums.length; i++) {
+		System.out.println(nums[i]);
+		
+		with enhanced for loop --> it is good only one way, it is only used for array and collections
+		for(int elements : nums) {
+		System.out.println(elements);

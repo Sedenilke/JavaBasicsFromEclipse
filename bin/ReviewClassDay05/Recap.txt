@@ -1,0 +1,25 @@
+Arrays are consecutive memory locations which store same type of data.
+Why we need arrays?
+-help us to store large amount of data in a single variable. For example if we want to store the data of 100 students, we do not 
+need to create 100 different variables.
+We can simply create an array of size 100 and it will store the names.
+
+Syntax(How to use)
+First option: Data type []  name of array = new data type [size]
+Second option: Data type [] name of array = new data type [] { store the elements}
+For example an int array that stores three numbers 
+int [] arr =new int [] { 10,20,3}
+
+  // prints all the elements of an array without a loop
+        System.out.println(Arrays.toString(dresses));
+        
+ //limitation of enhanced loop:
+ we can only go in one direction
+ we can not skipped the elements
+ we cannot use enhanced for loop to update the elements in an array
+ we can only use it to access the elements.
+ 
+
+
+How can we find the index of one element in an array?
+

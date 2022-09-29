@@ -1,0 +1,13 @@
+ String does not allow to change to change the original contents of the variables
+ because String is immutable
+ 
+StringBuilder  allows any methods to change the original contents of the variables
+because StringBuilder is mutable.
+
+Every time that we create a variable with String, Java scan all the memory whether it saved the same value before.
+if it did, it assigns the new created variable to the same id (memory place) with the first created one.
+which means it saves memory, but it takes time to process to go over all of those values.
+
+ StringBuilder does not do it. It creates a new variable every single time.
+ even though same value has been stored before.
+ If we focus on speed, and not care about memory we go with StringBuilder,
